@@ -1,6 +1,54 @@
+body{
+    background-image: url("https://dogemuchwow.com/wp-content/uploads/2025/03/starry-doge-nightsky.jpg")
+}
+
+p, h1, h2, h3, h4, h5, h6, span, div{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
 .wrapper{
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/468/441/85/pack-of-dogs-on-a-white-background-different-dog-breeds-wallpaper-preview.jpg");
+    background-image: url("https://dogemuchwow.com/wp-content/uploads/2025/03/starry-doge-nightsky.jpg");
+    position: absolute;
+    background-color: rgb(60, 60, 214);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.welcomeDiv{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 800px;
+    height: 180px;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 5px 10px #00000081;
+    background-color: rgba(81, 155, 253, 0.219);
+}
+
+.welcome_text {
+    padding-left: 45px;
+    padding-top: 20px;
+    width: 380px;
+    text-align: center;
+    word-wrap: break-word;
+    font-style: italic;
+    font-size: 30px;
+    
+}
+
+.welcomeButton{
+    cursor: pointer;
+    margin-top: 280px;
+    box-shadow: 3px 5px rgba(81, 155, 253, 0.219);;
+    text-shadow: 1px 1px 2px rgb(158, 158, 158);
+    font-size: 16px;
 }

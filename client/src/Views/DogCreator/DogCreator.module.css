@@ -1,0 +1,63 @@
+.mainstudio {
+    color: white;
+    position: relative;
+    left: 36%;
+    border: #aeb1a4 1.5px solid;
+    border-radius: 3px;
+    width: 500px;
+    height: 750px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(81, 155, 253, 0.76);
+    text-shadow: 1px 1px 2px black;
+    }
+    
+input {
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.623);
+    color: rgba(0, 0, 0, 0.993);
+    margin-left: 5px;
+    }
+input:focus {
+    border-bottom: 2px solid white;
+    color: rgba(0, 0, 0, 0.993);
+    }
+input:hover {
+    border-bottom: 2px solid white;
+    color: rgba(0, 0, 0, 0.993);
+}
+input::placeholder {
+    color: rgb(124, 122, 122);
+    font-style: italic;
+}
+.dangerContainer {
+    color: red;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    font-size: 12px;
+}
+.dangerline {
+    border-bottom: 2px solid red;
+}
+.createbtn {
+    position: absolute;
+    bottom: 40px;
+    right: 210px;
+}
+.success {
+    color: white;
+    position: relative;
+    left: 36%;
+    border: #aeb1a4 1.5px solid;
+    border-radius: 3px;
+    width: 500px;
+    height: 650px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(204, 183, 157);
+    text-shadow: 1px 1px 2px black;
+    padding-top: 100px;
+}

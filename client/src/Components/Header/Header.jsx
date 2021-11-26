@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <nav>
             <div>
-                <h1 className='title'> Dogeland</h1>
+                <h1 className={styles.title}> <b>Welcome to Dogeland!</b></h1>
                 <span className='searchbar'><Searchbar /></span>
             </div>
         </nav>

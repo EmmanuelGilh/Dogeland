@@ -52,7 +52,7 @@ module.exports = (sequelize) => {
       allowNull: true,
     },
     temperament: {
-      type: DataTypes.STRING,
+      type: DataTypes.ARRAY(DataTypes.STRING),
       allowNull: false
     },
   });

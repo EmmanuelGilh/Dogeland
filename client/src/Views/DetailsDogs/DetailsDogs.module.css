@@ -1,0 +1,21 @@
+.image{
+    width: 500px;
+    border: 2px solid rgb(255, 255, 255);   
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.cardDetail{
+    width: 600px;
+    border: 2px solid #ddd;
+    margin: 15px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    color: #ddd;
+    background-color: rgba(81, 155, 253, 0.219);
+    margin: auto;
+    margin-top: 25px;
+}
